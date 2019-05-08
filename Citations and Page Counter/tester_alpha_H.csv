@@ -1,4 +1,6 @@
 word,count
+pdivdiv,66
+classpagediv,81
 no,287
 page,85
 number,103
@@ -616,8 +618,6 @@ dwellers,1
 7,53
 amplitude,2
 r,85
-pdivdiv,65
-classpagediv,81
 classtexth,74
 oa,127
 almost,15
@@ -3976,8 +3976,8 @@ example,9
 handsoal,1
 pryden,1
 handsomebr,1
-xmlnsbr,20
-xmlnspdivdiv,16
+xmlnsbr,19
+xmlnspdivdiv,15
 handsome,9
 handsa5em,1
 dexterous,2
@@ -17863,4 +17863,4 @@ ibl,1
 ericks,1
 soartiz,1
 hyerique,1
-ursfixesbr,1
+ursfixes,1

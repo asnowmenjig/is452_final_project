@@ -1,4 +1,8 @@
 word,count
+br,4
+xmlnsbr,56
+xmlnspdivdiv,30
+classpagediv,122
 page,125
 416divp,1
 classtextf,113
@@ -606,7 +610,6 @@ says,19
 wolf,7
 challenge,4
 pdivdiv,92
-classpagediv,122
 417divp,1
 facetiously,1
 facetious,4
@@ -3949,7 +3952,7 @@ bread,10
 bran,3
 meat,14
 try,18
-54,7
+54,8
 attack,7
 broomstaff,1
 defied,1
@@ -4761,7 +4764,6 @@ please,22
 displease,3
 inan,1
 ioalandbr,1
-xmlnsbr,56
 xmlns,2
 confute,1
 saviours,1
@@ -5885,7 +5887,6 @@ mesopotamia,1
 guide,12
 hubberdxe2x80x99s,2
 talebr,1
-xmlnspdivdiv,30
 xe2x80x9d,10
 army,11
 knulles,1
@@ -8577,7 +8578,6 @@ fatird,1
 untwist,2
 stamina,2
 ainsw,2
-br,3
 loacit,1
 febricitor,1
 fever,25
@@ -23417,4 +23417,3 @@ expectance,1
 unhand,1
 gaities,1
 tatter,1
-54br,1
