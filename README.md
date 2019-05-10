@@ -1,6 +1,6 @@
 
 ## About
-//// is a Python program that evaluates the number of Shakespeare citations in each alphabet section of Samuel Johnson's *A Dictionary of the English Language* (1775) (Google-digitized text retrieved from HathiTrust, [catalog record 009310086](<https://catalog.hathitrust.org/Record/009310086>))
+My final project for IS452 is a Python program that evaluates the number of Shakespeare citations in each alphabet section of Samuel Johnson's *A Dictionary of the English Language* (1775) (Google-digitized text retrieved from HathiTrust, [catalog record 009310086](<https://catalog.hathitrust.org/Record/009310086>))
 
 
 
