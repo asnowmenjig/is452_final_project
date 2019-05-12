@@ -12,38 +12,42 @@ My final project for IS452 is a Python program that evaluates the number of Shak
 
 
 ## How to Run
-Before running the program, download the following files from the **is452_Project_Final** folder:
+First, download the following files from the **is452_Project_FinalVersion** folder or the Moodle submission page:
 * johnson\_volume1.txt
 * johnson\_volume2.txt
 
+Next, download the following files from the Moodle submission page:
+* jmwong5_finalproject_volume1.py (also available as "is452_Project_Final_volume1.ipynb" in the **is452_Project_FinalVersion** folder)
+* jmwong5_finalproject_volume2.py (also available as "is452_Project_Final_volume2.ipynb" the **is452_Project_FinalVersion** folder)
 
+Make sure that each .py file is paired together with its corresponding .txt file in he same folder, then execute each program in your preferred interpreter.
 
 
 ## How it Works
-This program takes the Google-digitized text of Johnson's dictionary and cleans each line of text. The cleaned lines are then split into lists of individual words.
+This program is split into two files, which correspond with the dictionary's two volumes. Each program takes the Google-digitized text from a volume of Johnson's dictionary and cleans each line of text. The cleaned lines are then split into lists of individual words.
 
-Each unique word and its frequency of occurrence in the text are recorded in a CSV file. The program also keeps count of the number of pages in the current alphabet section as it loops through the words.
+Each unique word and its frequency of occurrence in the text are recorded in a CSV file. The program also keeps count of the number of pages in the current alphabet section as it loops through the text.
 
 When the program detects that the current alphabet section has ended, it evaluates how many times William Shakespeare was cited in the completed section and writes the number of Shakespeare citations and the page count for the section in the volume's respective "counts.txt" file. The program then creates a new CSV file and restarts its count of unique words and pages.
 
-When all the alphabet sections in the current volume have been recorded, the program prints "Complete!" and exits.
+When all the alphabet sections in the given volume have been recorded, the program prints "Complete!" and exits.
 
 
 
 
 ## Program Output
 
-The program for Volume 1 should output the following:
+The program for Volume 1 (jmwong5_finalproject_volume1.py) should output the following:
 * 10 CSV files (Letter\_*\_counts.csv)
   * CSV files containing word counts for their respective letter sections of the dictionary.
 * volume\_1\_counts.txt
-  * A text file detailing the total page counts and Shakespeare citation counts for letter sections A-K of the dictionary.<sup>1</sup>
+  * A text file detailing the total page counts and Shakespeare citation counts for volume 1 (letter sections A-K).<sup>1</sup>
 
-The program for Volume 2 should output the following:
+The program for Volume 2 (jmwong5_finalproject_volume2.py) should output the following:
 * 14 CSV files (Letter\_*\_counts.csv)
   * CSV files containing word counts for their respective letter sections of the dictionary.
 * volume\_2\_counts.txt
-  * A text file detailing the total page counts and Shakespeare citation counts for letter sections L-Z of the dictionary.<sup>2</sup>
+  * A text file detailing the total page counts and Shakespeare citation counts for volume 2 (letter sections L-Z).<sup>2</sup>
 
 
 
