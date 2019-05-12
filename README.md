@@ -3,12 +3,8 @@
 My final project for IS452 is a Python program that evaluates the number of Shakespeare citations in each alphabet section of Samuel Johnson's *A Dictionary of the English Language* (1775) (Google-digitized text retrieved from HathiTrust, [catalog record 009310086](<https://catalog.hathitrust.org/Record/009310086>))
 
 
-
-
 ## About Johnson's Dictionary
 *A Dictionary of the English Language* (1775) is an English-language dictionary written by Samuel Johnson. Johnson sought to produce an evidence-based dictionary by citing literary language use from the writers of his time. Of the cited authors, William Shakespeare is featured most prominently.
-
-
 
 
 ## How to Run
@@ -20,7 +16,7 @@ Next, download the following files from the Moodle submission page:
 * jmwong5_finalproject_volume1.py (also available as "is452_Project_Final_volume1.ipynb" in the **is452_Project_FinalVersion** folder)
 * jmwong5_finalproject_volume2.py (also available as "is452_Project_Final_volume2.ipynb" the **is452_Project_FinalVersion** folder)
 
-Make sure that each .py file is paired together with its corresponding .txt file in he same folder, then execute each program in your preferred interpreter.
+Make sure that each .py file is paired together with its corresponding .txt file in the same folder, then execute each program in your preferred interpreter.
 
 
 ## How it Works
@@ -31,8 +27,6 @@ Each unique word and its frequency of occurrence in the text are recorded in a C
 When the program detects that the current alphabet section has ended, it evaluates how many times William Shakespeare was cited in the completed section and writes the number of Shakespeare citations and the page count for the section in the volume's respective "counts.txt" file. The program then creates a new CSV file and restarts its count of unique words and pages.
 
 When all the alphabet sections in the given volume have been recorded, the program prints "Complete!" and exits.
-
-
 
 
 ## Program Output
@@ -48,7 +42,6 @@ The program for Volume 2 (jmwong5_finalproject_volume2.py) should output the fol
   * CSV files containing word counts for their respective letter sections of the dictionary.
 * volume\_2\_counts.txt
   * A text file detailing the total page counts and Shakespeare citation counts for volume 2 (letter sections L-Z).<sup>2</sup>
-
 
 
 ***
